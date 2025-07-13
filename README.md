@@ -19,6 +19,6 @@
 ## 📄 Disclaimer
 
 **This is a personal, independent project** developed on personal time using personal equipment.  
-It is **not affiliated with or endorsed by my employer, Constant Contact**, nor does it use any proprietary code, data, or internal tooling.
+It is **not affiliated with or endorsed by my employer, nor does it use any proprietary code, data, or internal tooling.
 
 AudienceAssistant is intended solely for educational and portfolio purposes, showcasing practical integration of on-device machine learning and SwiftUI-based app architecture.
