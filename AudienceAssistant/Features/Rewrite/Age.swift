@@ -19,15 +19,15 @@ public enum Age: String, Audience {
 	public var description: String {
 		switch self {
 		case .children:
-			return "<13"
+			return "< 13 years"
 		case .teenagers:
-			return "13-18"
+			return "13-18 years old"
 		case .youngAdults:
-			return "19-34"
+			return "19-34 years old"
 		case .adults:
-			return "35-54"
+			return "35-54 years old"
 		case .seniors:
-			return "55+"
+			return "55+ years old"
 		}
 	}
 	

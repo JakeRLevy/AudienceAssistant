@@ -10,7 +10,7 @@ import SwiftUI
 
 struct ExpandingEditor : View {
 	
-	@State var text: String = ""
+	@Binding var text: String
 	var body: some View {
 		LazyVStack(alignment: .leading) {
 			Text("Post Editor")
@@ -50,6 +50,6 @@ struct ExpandingEditor : View {
 	
 }
 
-#Preview {
-	ExpandingEditor()
-}
+//#Preview {
+//	ExpandingEditor()
+//}

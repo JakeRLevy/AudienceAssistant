@@ -7,6 +7,7 @@
 
 import SwiftUI
 import SwiftData
+import Playgrounds
 
 @main
 struct AudienceAssistantApp: App {
@@ -29,4 +30,8 @@ struct AudienceAssistantApp: App {
         }
         .modelContainer(sharedModelContainer)
     }
+}
+
+#Playground("Foundation Models Demo") {
+	ContentView()
 }

@@ -10,22 +10,24 @@ import Foundation
 public enum Industry: String, Audience {
 	public var id: String { rawValue }
 	
-	case technology = "technology"
-	case finance = "finance"
-	case healthcare = "healthcare"
-	case mediaAndEntertainment = "media-and-entertainment"
-	case retail = "retail"
-	case government = "government"
-	case education = "education"
-	case energy = "energy"
-	case realEstate = "real-estate"
-	case utilities = "utilities"
-	case manufacturing = "manufacturing"
-	case logistics = "logistics"
-	case professionalServices = "professional-services"
-	case consumerServices = "consumer-services"
+	case technology = "in technology"
+	case finance = "in finance"
+	case healthcare = "in healthcare"
+	case mediaAndEntertainment = "in media and entertainment"
+	case retail = "in retail"
+	case government = "in government"
+	case education = "in education"
+	case energy = "in energy"
+	case realEstate = "in real-estate"
+	case utilities = "in utilities"
+	case manufacturing = "in manufacturing"
+	case logistics = "in logistics"
+	case professionalServices = "in professional-services"
+	case consumerServices = "in consumer-services"
+	case students = "students"
 	case other = "other"
-	case unknown = ""
+	case unknown = "unknown"
+	
 	
 	public var description: String { rawValue }
 }

@@ -7,7 +7,7 @@
 
 import Foundation
 
-public enum Tone: String, CaseIterable {
+public enum Tone: String, CaseIterable, Identifiable {
 	case upbeat
 	case persuasive
 	case witty
@@ -15,4 +15,8 @@ public enum Tone: String, CaseIterable {
 	case enthusiastic
 	case calm
 	case excited
+	
+	public var id: String {
+		self.rawValue
+	}
 }
